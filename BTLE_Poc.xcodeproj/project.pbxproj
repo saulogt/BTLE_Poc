@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C82DD2371D00CB4100383864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD2361D00CB4100383864 /* AppDelegate.swift */; };
+		C82DD2391D00CB4100383864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD2381D00CB4100383864 /* ViewController.swift */; };
+		C82DD23C1D00CB4100383864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82DD23A1D00CB4100383864 /* Main.storyboard */; };
+		C82DD23E1D00CB4100383864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82DD23D1D00CB4100383864 /* Assets.xcassets */; };
+		C82DD2411D00CB4100383864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82DD23F1D00CB4100383864 /* LaunchScreen.storyboard */; };
+		C82DD24C1D00CB4100383864 /* BTLE_PocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD24B1D00CB4100383864 /* BTLE_PocTests.swift */; };
+		C82DD2571D00CB4100383864 /* BTLE_PocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD2561D00CB4100383864 /* BTLE_PocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C82DD2481D00CB4100383864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82DD22B1D00CB4100383864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82DD2321D00CB4100383864;
+			remoteInfo = BTLE_Poc;
+		};
+		C82DD2531D00CB4100383864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C82DD22B1D00CB4100383864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82DD2321D00CB4100383864;
+			remoteInfo = BTLE_Poc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C82DD2331D00CB4100383864 /* BTLE_Poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLE_Poc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82DD2361D00CB4100383864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C82DD2381D00CB4100383864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C82DD23B1D00CB4100383864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82DD23D1D00CB4100383864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82DD2401D00CB4100383864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82DD2421D00CB4100383864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82DD2471D00CB4100383864 /* BTLE_PocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLE_PocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82DD24B1D00CB4100383864 /* BTLE_PocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLE_PocTests.swift; sourceTree = "<group>"; };
+		C82DD24D1D00CB4100383864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82DD2521D00CB4100383864 /* BTLE_PocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLE_PocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82DD2561D00CB4100383864 /* BTLE_PocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLE_PocUITests.swift; sourceTree = "<group>"; };
+		C82DD2581D00CB4100383864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82DD2301D00CB4100383864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82DD2441D00CB4100383864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82DD24F1D00CB4100383864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C82DD22A1D00CB4100383864 = {
+			isa = PBXGroup;
+			children = (
+				C82DD2351D00CB4100383864 /* BTLE_Poc */,
+				C82DD24A1D00CB4100383864 /* BTLE_PocTests */,
+				C82DD2551D00CB4100383864 /* BTLE_PocUITests */,
+				C82DD2341D00CB4100383864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C82DD2341D00CB4100383864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82DD2331D00CB4100383864 /* BTLE_Poc.app */,
+				C82DD2471D00CB4100383864 /* BTLE_PocTests.xctest */,
+				C82DD2521D00CB4100383864 /* BTLE_PocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82DD2351D00CB4100383864 /* BTLE_Poc */ = {
+			isa = PBXGroup;
+			children = (
+				C82DD2361D00CB4100383864 /* AppDelegate.swift */,
+				C82DD2381D00CB4100383864 /* ViewController.swift */,
+				C82DD23A1D00CB4100383864 /* Main.storyboard */,
+				C82DD23D1D00CB4100383864 /* Assets.xcassets */,
+				C82DD23F1D00CB4100383864 /* LaunchScreen.storyboard */,
+				C82DD2421D00CB4100383864 /* Info.plist */,
+			);
+			path = BTLE_Poc;
+			sourceTree = "<group>";
+		};
+		C82DD24A1D00CB4100383864 /* BTLE_PocTests */ = {
+			isa = PBXGroup;
+			children = (
+				C82DD24B1D00CB4100383864 /* BTLE_PocTests.swift */,
+				C82DD24D1D00CB4100383864 /* Info.plist */,
+			);
+			path = BTLE_PocTests;
+			sourceTree = "<group>";
+		};
+		C82DD2551D00CB4100383864 /* BTLE_PocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C82DD2561D00CB4100383864 /* BTLE_PocUITests.swift */,
+				C82DD2581D00CB4100383864 /* Info.plist */,
+			);
+			path = BTLE_PocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82DD2321D00CB4100383864 /* BTLE_Poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82DD25B1D00CB4100383864 /* Build configuration list for PBXNativeTarget "BTLE_Poc" */;
+			buildPhases = (
+				C82DD22F1D00CB4100383864 /* Sources */,
+				C82DD2301D00CB4100383864 /* Frameworks */,
+				C82DD2311D00CB4100383864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLE_Poc;
+			productName = BTLE_Poc;
+			productReference = C82DD2331D00CB4100383864 /* BTLE_Poc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C82DD2461D00CB4100383864 /* BTLE_PocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82DD25E1D00CB4100383864 /* Build configuration list for PBXNativeTarget "BTLE_PocTests" */;
+			buildPhases = (
+				C82DD2431D00CB4100383864 /* Sources */,
+				C82DD2441D00CB4100383864 /* Frameworks */,
+				C82DD2451D00CB4100383864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82DD2491D00CB4100383864 /* PBXTargetDependency */,
+			);
+			name = BTLE_PocTests;
+			productName = BTLE_PocTests;
+			productReference = C82DD2471D00CB4100383864 /* BTLE_PocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C82DD2511D00CB4100383864 /* BTLE_PocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82DD2611D00CB4100383864 /* Build configuration list for PBXNativeTarget "BTLE_PocUITests" */;
+			buildPhases = (
+				C82DD24E1D00CB4100383864 /* Sources */,
+				C82DD24F1D00CB4100383864 /* Frameworks */,
+				C82DD2501D00CB4100383864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82DD2541D00CB4100383864 /* PBXTargetDependency */,
+			);
+			name = BTLE_PocUITests;
+			productName = BTLE_PocUITests;
+			productReference = C82DD2521D00CB4100383864 /* BTLE_PocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C82DD22B1D00CB4100383864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Saulo Tauil";
+				TargetAttributes = {
+					C82DD2321D00CB4100383864 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C82DD2461D00CB4100383864 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C82DD2321D00CB4100383864;
+					};
+					C82DD2511D00CB4100383864 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C82DD2321D00CB4100383864;
+					};
+				};
+			};
+			buildConfigurationList = C82DD22E1D00CB4100383864 /* Build configuration list for PBXProject "BTLE_Poc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C82DD22A1D00CB4100383864;
+			productRefGroup = C82DD2341D00CB4100383864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82DD2321D00CB4100383864 /* BTLE_Poc */,
+				C82DD2461D00CB4100383864 /* BTLE_PocTests */,
+				C82DD2511D00CB4100383864 /* BTLE_PocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82DD2311D00CB4100383864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82DD2411D00CB4100383864 /* LaunchScreen.storyboard in Resources */,
+				C82DD23E1D00CB4100383864 /* Assets.xcassets in Resources */,
+				C82DD23C1D00CB4100383864 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82DD2451D00CB4100383864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82DD2501D00CB4100383864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82DD22F1D00CB4100383864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82DD2391D00CB4100383864 /* ViewController.swift in Sources */,
+				C82DD2371D00CB4100383864 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82DD2431D00CB4100383864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82DD24C1D00CB4100383864 /* BTLE_PocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82DD24E1D00CB4100383864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82DD2571D00CB4100383864 /* BTLE_PocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82DD2491D00CB4100383864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82DD2321D00CB4100383864 /* BTLE_Poc */;
+			targetProxy = C82DD2481D00CB4100383864 /* PBXContainerItemProxy */;
+		};
+		C82DD2541D00CB4100383864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82DD2321D00CB4100383864 /* BTLE_Poc */;
+			targetProxy = C82DD2531D00CB4100383864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C82DD23A1D00CB4100383864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82DD23B1D00CB4100383864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82DD23F1D00CB4100383864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82DD2401D00CB4100383864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82DD2591D00CB4100383864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C82DD25A1D00CB4100383864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82DD25C1D00CB4100383864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BTLE_Poc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulotauil.BTLE-Poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C82DD25D1D00CB4100383864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BTLE_Poc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulotauil.BTLE-Poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C82DD25F1D00CB4100383864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTLE_PocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulotauil.BTLE-PocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTLE_Poc.app/BTLE_Poc";
+			};
+			name = Debug;
+		};
+		C82DD2601D00CB4100383864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTLE_PocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulotauil.BTLE-PocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTLE_Poc.app/BTLE_Poc";
+			};
+			name = Release;
+		};
+		C82DD2621D00CB4100383864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTLE_PocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulotauil.BTLE-PocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTLE_Poc;
+			};
+			name = Debug;
+		};
+		C82DD2631D00CB4100383864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTLE_PocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.saulotauil.BTLE-PocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTLE_Poc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82DD22E1D00CB4100383864 /* Build configuration list for PBXProject "BTLE_Poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82DD2591D00CB4100383864 /* Debug */,
+				C82DD25A1D00CB4100383864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82DD25B1D00CB4100383864 /* Build configuration list for PBXNativeTarget "BTLE_Poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82DD25C1D00CB4100383864 /* Debug */,
+				C82DD25D1D00CB4100383864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C82DD25E1D00CB4100383864 /* Build configuration list for PBXNativeTarget "BTLE_PocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82DD25F1D00CB4100383864 /* Debug */,
+				C82DD2601D00CB4100383864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C82DD2611D00CB4100383864 /* Build configuration list for PBXNativeTarget "BTLE_PocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82DD2621D00CB4100383864 /* Debug */,
+				C82DD2631D00CB4100383864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C82DD22B1D00CB4100383864 /* Project object */;
+}
