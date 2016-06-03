@@ -14,6 +14,7 @@
 		C82DD2411D00CB4100383864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82DD23F1D00CB4100383864 /* LaunchScreen.storyboard */; };
 		C82DD24C1D00CB4100383864 /* BTLE_PocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD24B1D00CB4100383864 /* BTLE_PocTests.swift */; };
 		C82DD2571D00CB4100383864 /* BTLE_PocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD2561D00CB4100383864 /* BTLE_PocUITests.swift */; };
+		C82DD2651D00F0DD00383864 /* PeriferalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82DD2641D00F0DD00383864 /* PeriferalDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C82DD2521D00CB4100383864 /* BTLE_PocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLE_PocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C82DD2561D00CB4100383864 /* BTLE_PocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTLE_PocUITests.swift; sourceTree = "<group>"; };
 		C82DD2581D00CB4100383864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82DD2641D00F0DD00383864 /* PeriferalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeriferalDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C82DD23D1D00CB4100383864 /* Assets.xcassets */,
 				C82DD23F1D00CB4100383864 /* LaunchScreen.storyboard */,
 				C82DD2421D00CB4100383864 /* Info.plist */,
+				C82DD2641D00F0DD00383864 /* PeriferalDetailViewController.swift */,
 			);
 			path = BTLE_Poc;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				C82DD2391D00CB4100383864 /* ViewController.swift in Sources */,
 				C82DD2371D00CB4100383864 /* AppDelegate.swift in Sources */,
+				C82DD2651D00F0DD00383864 /* PeriferalDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
